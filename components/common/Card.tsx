@@ -28,14 +28,17 @@ const styles = StyleSheet.create({
     height: width * 0.55, 
     width: width * 0.898, 
       borderRadius: 5,
-      borderBottomWidth: 0.1,
+      borderBottomEndRadius: 0,
+      borderBottomStartRadius : 0,
+      borderBottomWidth: 1,
   },
   text: {
     paddingHorizontal: 10,
   },
   button: {
       borderRadius: 0,
-      fontWeight: 'bold', 
+      fontSize : 14,
+      fontWeight: 900, 
       borderTopWidth : 0.5,
     },
 priceText: {
